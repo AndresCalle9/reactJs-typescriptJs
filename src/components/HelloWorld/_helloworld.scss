@@ -1,0 +1,14 @@
+.container {
+  background-color: rgb(125, 144, 253);
+  font-size: 20px;
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 5px black;
+  transition: all 0.3s ease-in-out;
+  h1 {
+    color: purple;
+  }
+}
