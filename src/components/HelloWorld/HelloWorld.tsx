@@ -1,14 +1,17 @@
 import './_helloworld.scss';
+interface HelloWorldProps {
+  name: string;
+}
 
-function HelloWorld() {
+const HelloWorld: React.FC<HelloWorldProps> = ({ name }) => {
   return (
     <>
       <div className='container'>
-        <h1>Hola mundo</h1>
+        <h1>Hola mundo, {name}</h1>
       </div>
       <p>Esto es un ejemplo de React con TypeScript</p>
     </>
   );
-}
+};
 
 export default HelloWorld;

@@ -1,5 +1,5 @@
 const name = 'Andrés Calle';
-const element = <h1>Hola, {name}</h1>;
+const element = <h3>Hola, {name}</h3>;
 
 const formatName = (user: any) => {
   return user.firstName + ' ' + user.lastName;
@@ -23,7 +23,7 @@ function JsxApp() {
     <div>
       {name}
       {element}
-      <h1> Hello, {formatName(user)}</h1>
+      <h3> Hello, {formatName(user)}</h3>
       {testAhref}
     </div>
   );
