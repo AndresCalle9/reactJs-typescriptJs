@@ -10,6 +10,7 @@ import ChildComponent from './components/ChildComponent/ChildComponent';
 function App() {
   return (
     <>
+      <a href='/landing'>Landing</a>
       <HelloWorld name='react' />
       <p>------------------</p>
       <JsxApp />
