@@ -1,0 +1,36 @@
+#app {
+  #banner {
+    font-family: 'Helvetica Neue';
+    padding: 15px 0px;
+    font-size: 14px;
+    line-height: 1.42;
+    font-weight: 400;
+    letter-spacing: -0.016em;
+    a {
+      text-decoration: none;
+    }
+  }
+  #header-section {
+    background-color: rgba(245, 245, 247);
+    font-family: 'Helvetica Neue';
+    font-size: 41px;
+    line-height: 1.08349;
+    font-weight: 600;
+    letter-spacing: -0.003em;
+    padding: 56px 15%;
+    .header {
+      color: #1d1d1f;
+    }
+    .sub-header {
+      color: #6e6e73;
+    }
+  }
+  #cards-container {
+    background-color: rgba(246, 246, 247);
+    padding: 46px 15%;
+    .info {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
