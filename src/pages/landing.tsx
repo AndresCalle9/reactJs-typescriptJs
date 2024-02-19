@@ -8,6 +8,8 @@ const Landing = () => {
   return (
     <div>
       <a href='/'>Home</a>
+      <a href='/tasksApp'>Tasks App</a>
+
       <NavBar />
       <div className='container-fluid' id='app'>
         <div className='container text-center' id='banner'>

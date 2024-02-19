@@ -6,11 +6,13 @@ import ClassComponent from './components/ClassComponent/ClassComponent';
 import ClassComponentState from './components/ClassComponentState/ClassComponentState';
 import FunctionalComponentState from './components/FunctionalComponentState/FunctionalComponentState';
 import ChildComponent from './components/ChildComponent/ChildComponent';
+import UseHooks from './components/UsageHooks/UsageHooks';
 
 function App() {
   return (
     <>
       <a href='/landing'>Landing</a>
+      <a href='/tasksApp'>Tasks App</a>
       <HelloWorld name='react' />
       <p>------------------</p>
       <JsxApp />
@@ -34,6 +36,8 @@ function App() {
           console.log('FatherComponent, ', fullName);
         }}
       />
+      <p>------------------</p>
+      <UseHooks />
     </>
   );
 }
