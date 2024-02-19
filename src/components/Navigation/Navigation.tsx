@@ -53,6 +53,11 @@ const Navigation = () => {
                 Blog Page
               </Link>
             </li>
+            <li className='nav-item'>
+              <Link className='nav-link' aria-current='page' to='/connections'>
+                APIs connection
+              </Link>
+            </li>
           </ul>
         </div>
       </div>

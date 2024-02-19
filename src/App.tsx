@@ -7,6 +7,7 @@ import Navbar from './components/Navigation/Navigation';
 import BlogPage from './pages/blogPage';
 import Blog from './pages/blog';
 import NotFound from './pages/notFound';
+import Connections from './pages/connections';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path='/dashboard' element={<Dashboard />} />
           <Route path='/blogPage' element={<BlogPage />} />
           <Route path='/blogPage/:idBlog' element={<Blog />} />
+          <Route path='/connections' element={<Connections />} />
           <Route path='*' element={<NotFound />} />
         </Routes>
       </div>
