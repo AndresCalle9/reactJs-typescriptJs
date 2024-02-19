@@ -29,9 +29,6 @@ const TaskApp = () => {
   };
   return (
     <div>
-      <a href='/'>Home</a>
-      <a href='/landing'>Landing</a>
-
       <h1>TasksApp</h1>
       <div className='container pt-4'>
         <div className='row'>
