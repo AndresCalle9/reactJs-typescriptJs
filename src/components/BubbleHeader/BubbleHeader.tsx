@@ -19,7 +19,7 @@ const BubbleHeader: React.FC<BubbleHeaderProps> = ({
   return (
     <div className='row' id='bubble-header'>
       <div className='col-md-2'>
-        <img src={image} className='d-block mx-auto' />
+        <img src={image} className='d-block mx-auto' alt={title} />
       </div>
       <div className='col-md-10'>
         <div className='h5'>
@@ -27,7 +27,7 @@ const BubbleHeader: React.FC<BubbleHeaderProps> = ({
           <br />
           <a href={url} target='_blank'>
             {subtitle}
-            {arrow == true && <i className='bi bi-chevron-right'> </i>}
+            {arrow && <i className='bi bi-chevron-right'> </i>}
           </a>
         </div>
       </div>
