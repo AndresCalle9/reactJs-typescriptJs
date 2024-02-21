@@ -8,6 +8,7 @@ import BlogPage from './pages/blogPage';
 import Blog from './pages/blog';
 import NotFound from './pages/notFound';
 import Connections from './pages/connections';
+import UserView from './components/UserView/UserView';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path='/blogPage' element={<BlogPage />} />
           <Route path='/blogPage/:idBlog' element={<Blog />} />
           <Route path='/connections' element={<Connections />} />
+          <Route path='/user/:id' element={<UserView />} />
           <Route path='*' element={<NotFound />} />
         </Routes>
       </div>
